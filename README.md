@@ -1,7 +1,7 @@
 HistoricSF
 ==========
 
-**Live @ ** [http://historicsf.akshmakov.com](http://historicsf.akshmakov.com)
+**Live @** [http://historicsf.akshmakov.com](http://historicsf.akshmakov.com)
 
 A hobby GIS Project To stitch together a large scale map of the San Francisco Bay Area from Historical Topographic Maps
 
@@ -41,13 +41,18 @@ Original Data Produced by the U.S. Geodetic Survey, prev United States Coast & G
 
 ## How To Build
 
-**Required Tools**
+1. **Get Required Tools**
 
-- GNU Make
+- GNU `make`
 - `gdalwarp`
 - `gdaladdo`
 - `gdalinfo`
 - `gdal2tiles`
 
+2. **Download Data Set**
+ - [extract this to `project_data/`](https://github.com/akshmakov/HistoricSF/releases/latest)
 
-**Build CMD:** `make`
+3. **Build CMD:** 
+ - `make`
+ 
+ 4. **View Locally @** `output/historicsf/tiles/combined/leaflet.html`
